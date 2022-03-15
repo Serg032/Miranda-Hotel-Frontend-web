@@ -1,0 +1,511 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  width: 100%;
+}
+.rectangle2 {
+  position: absolute;
+  width: 100%;
+  height: 531px;
+  left: 0px;
+  top: 114px;
+  background-color: #333333;
+}
+
+.ultimate {
+  position: absolute;
+  width: 237px;
+  height: 36px;
+  left: 20px;
+  top: 69px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* or 138% */
+
+  letter-spacing: 2.8px;
+
+  color: #ffffff;
+}
+
+.base {
+  position: absolute;
+  width: 314px;
+  height: 120px;
+  left: 20px;
+  top: 110px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  letter-spacing: -1.2px;
+
+  color: #ffffff;
+}
+
+.take {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 20px;
+  top: 300px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  background-color: #bead8e;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 1px solid #bead8e;
+}
+
+.learn {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 20px;
+  top: 380px;
+
+  /* Inside auto layout */
+  background-color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  text-decoration: none;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+.rectangle10 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 354px;
+  left: 0px;
+  top: 644px;
+  background-color: #222222;
+}
+
+.inputs {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.inputRectangle {
+  margin-top: 15px;
+}
+
+.titleRectangel10 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.calendar {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.inputRectangle {
+  background-color: #222222;
+  text-decoration: none;
+  border-bottom: 3px solid #bead8e;
+  height: 30px;
+}
+
+.departure {
+  margin-top: 15px;
+}
+
+.check {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 20px;
+  top: 250px;
+  background-color: #bead8e;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.separator {
+  width: 100%;
+  height: 60px;
+  display: block;
+}
+
+.rectangle18 {
+  position: absolute;
+  width: 100%;
+  height: 610px;
+  left: 0px;
+  top: 1060px;
+
+  background-color: #f9f9f9;
+}
+
+.aboutUs {
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  left: 20px;
+  top: 38px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.discover {
+  position: absolute;
+  width: 325px;
+  height: 120px;
+  left: 20px;
+  top: 88px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: -1.2px;
+
+  color: #111111;
+}
+
+.lorem {
+  position: absolute;
+  width: 335px;
+  height: 127px;
+  left: 30px;
+  top: 280px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #777777;
+}
+
+.book {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 30px;
+  top: 460px;
+  border: 0px;
+  background-color: #bdac8d;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.resortLuxury {
+  width: 100%;
+}
+
+.resort {
+  position: absolute;
+  top: 1630px;
+  left: 52px;
+  width: 270px;
+  height: 300px;
+  background-image: url(./../img/resort-02.jpg);
+  background-size: cover;
+}
+
+.team {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 1930px;
+  /* left: 52px; */
+  /* background-color: aqua; */
+  left: 0;
+}
+
+.teamIcon {
+  position: absolute;
+  left: 40%;
+  right: 0%;
+  top: 10%;
+  bottom: 0.08%;
+}
+
+.strong {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 28%;
+  top: 100.5px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.9px;
+
+  color: #111111;
+}
+
+.ipsum {
+  position: absolute;
+  width: 199.5px;
+  height: 77.17px;
+  left: 23%;
+  top: 184.5px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  text-align: center;
+
+  color: #111111;
+}
+
+.luxury {
+  position: absolute;
+  top: 2230px;
+  left: 52px;
+  width: 270px;
+  height: 300px;
+  background-image: url(./../img/luxury-hotel.jpg);
+  background-size: cover;
+}
+
+.luxuryRoom {
+  position: absolute;
+  width: 270px;
+  height: 300px;
+  left: 52px;
+  top: 2530px;
+
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.luxyCal {
+  margin-top: 40px;
+  width: 46.81px;
+  height: 50.06px;
+}
+
+.luxuryRooms {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  letter-spacing: -0.9px;
+
+  color: #ffffff;
+}
+
+.dolo {
+  width: 199.5px;
+  height: 77.17px;
+  left: 35.5px;
+  top: 184.5px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.pikedRooms {
+  position: absolute;
+  top: 2850px;
+}
+
+.rooms {
+  position: absolute;
+  width: 66px;
+  height: 15px;
+  left: 147px;
+  /* top: 2858px; */
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.hand {
+  position: absolute;
+  width: 335px;
+  height: 120px;
+  left: 20px;
+  /* top: 2897px; */
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: -1.2px;
+
+  color: #222222;
+}
+
+.roomsIcons {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  width: 256px;
+  height: 40px;
+  left: 100px;
+  top: 3050px;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 5px rgba(138, 138, 138, 0.05);
+}
+
+.roomIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.photos {
+  position: absolute;
+  top: 3100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slice {
+  background-image: url(./../img/luxury-hotel-slice.jpg);
+  background-size: cover;
+  width: 370px;
+  height: 244px;
+  margin-left: 5px;
+}
+/*
+.b-slice {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+
+.b-slice-b {
+  width: 32px;
+  height: 32px;
+  background-color: #bdac8d;
+  border: none;
+  position: absolute;
+  top: 120px;
+  left: 330px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+} */
+
+.rectangle23 {
+  position: absolute;
+  width: 335px;
+  height: 215px;
+}
