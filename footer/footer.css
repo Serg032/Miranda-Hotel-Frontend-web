@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  /* background-color: #efefef; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 1280px;
+  background-color: #efefef;
+  /* background-image: url(./../img/Rectangulo2.png); */
+}
+
+.firstFooter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 22px;
+}
+
+.divH {
+  width: 80px;
+  height: 80px;
+  background-color: #bead8e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h {
+}
+
+.hm {
+  width: 137px;
+  height: 56px;
+}
+
+.lorem {
+  width: 335px;
+  height: 130px;
+  margin-top: 47px;
+  margin-left: 20px;
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.twitter {
+  width: 40px;
+  height: 40px;
+  background-color: #bead8e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.services {
+  font-family: "Old Standard TT", serif;
+  font-size: 24px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.lists {
+  display: flex;
+}
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 48px;
+  color: #777777;
+  list-style-type: square;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contactBox {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* .contactDescription {
+  display: flex;
+  flex-direction: column;
+  gap: -50px;
+} */
+
+.contactIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.mainContact {
+  font-family: "Old Standard TT", serif;
+  /* color: #222222; */
+}
+
+.numberContact {
+  font-family: "Old Standard TT", serif;
+  color: #222222;
+}
+
+.copy {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.48px;
+  color: #222222;
+}
