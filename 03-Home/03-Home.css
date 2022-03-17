@@ -709,7 +709,7 @@ video {
   /* left: 250px; */
 }
 
-.ceroTow {
+.ceroTwo {
   display: none;
 }
 
@@ -945,6 +945,22 @@ video {
   height: 80px;
 }
 
+.whole {
+  display: none;
+}
+
+.fruit {
+  display: none;
+}
+
+/* .forFood {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  top: 150px;
+} */
+
 @media only screen and (min-width: 1000px) {
   * {
     box-sizing: border-box;
@@ -959,15 +975,93 @@ video {
     flex-direction: column;
   }
   .rectangle2 {
+    position: absolute;
     width: 100%;
     width: 100%;
     height: 700px;
   }
 
+  .rectangle10 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 815px;
+    width: 100%;
+
+    height: 152px;
+    right: 0;
+  }
+
+  .inputs {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 100%; */
+    /* left: 0; */
+  }
+
+  .arrival {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 0.1px;
+  }
+
+  .departure {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 350px;
+    top: -5px;
+  }
+
+  .check {
+    position: absolute;
+    /* width: 250px;
+    height: 60px;*/
+    left: 650px;
+    top: 10px;
+    /* background-color: #bead8e;  */
+
+    /* font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+  
+    color: #ffffff; */
+  }
+
+  .rectangle18 {
+    position: absolute;
+    left: 550px;
+    background-color: rgb(187, 144, 87);
+    width: 500px;
+    height: 610px;
+    /* margin-left: 950px; */
+    /* margin-top: 50px; */
+  }
+
+  .kno {
+    display: none;
+  }
+
   .ultimate {
-    width: 340px;
+    width: 440px;
     height: 15px;
     margin-left: 275px;
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+
+    color: #ffffff;
   }
 
   .base {
@@ -1007,63 +1101,10 @@ video {
     margin-left: 375px;
   }
 
-  .rectangle10 {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    top: 815px;
-    width: 100%;
-
-    height: 152px;
-    right: 0;
-  }
-
   .inputs {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .arrival {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 270px;
-    top: 0.1px;
-  }
-
-  .departure {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 650px;
-    top: 0.1px;
-  }
-
-  .check {
-    /* position: absolute;
-    width: 250px;
-    height: 60px;*/
-    left: 1050px;
-    top: 20px;
-    /* background-color: #bead8e;  */
-
-    /* font-family: "Archivo";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 2.8px;
-    text-transform: uppercase;
-  
-    color: #ffffff; */
-  }
-
-  .rectangle18 {
-    width: 500px;
-    height: 610px;
-    margin-left: 950px;
-    margin-top: 50px;
   }
 
   .aboutUs {
@@ -1253,20 +1294,164 @@ video {
 
   .rating {
     position: absolute;
-    left: 150px;
+    left: 50px;
     width: 1200px;
     height: 500px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     top: 3650px;
   }
 
   .ceroOneOne {
-    width: 143px;
-    height: 130px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 349px;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    left: 50px;
+  }
+
+  .ceroOne {
+    position: absolute;
+    left: 0;
+    top: 00px;
+    left: 220px;
   }
 
   .hand {
-    width: 60px;
-    height: 60px;
+    position: absolute;
+    left: -300px;
+    width: 70px;
+    height: 70px;
+    top: 120px;
   }
+
+  .high {
+    position: absolute;
+    left: 80px;
+    top: 120px;
+  }
+
+  .amet {
+    position: absolute;
+    left: 0;
+    top: 190px;
+    left: 90px;
+  }
+
+  .ceroTwo {
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 349px;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    left: 500px;
+  }
+
+  .ceroThree {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 349px;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    left: 950px;
+  }
+  .ceroFour {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 349px;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    left: 50px;
+    top: 400px;
+  }
+
+  .ceroFive {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 349px;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    left: 500px;
+    top: 400px;
+  }
+
+  .ceroSix {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 349px;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    left: 950px;
+    top: 400px;
+  }
+
+  .donut {
+    display: none;
+  }
+
+  /* .whole {
+    display: block;
+    position: absolute;
+    width: 229px;
+    height: 229px;
+    left: 0px;
+    top: 0px;
+    top: 4500px;
+    left: 50px;
+  } */
+
+  /* .menu {
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 394.15px;
+    top: 4700px;
+    /* color: red; */
+  /* }  */
+
+  /* .foodsMenu {
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 394.15px;
+    top: 4700px;
+    width: 452px;
+  } */
+
+  /* .dishes {
+    position: absolute;
+    width: 1500px;
+    height: 700px;
+
+    background-color: rgb(149, 197, 238);
+  } */
+
+  /* .wildFruit {
+    width: 120px;
+    height: 120px;
+    background-image: url("https://live.staticflickr.com/4309/35781406081_a045c14896_b.jpg");
+    background-size: cover;
+  } */
 }
