@@ -15,16 +15,16 @@ body {
   width: 100%;
   height: 531px;
   left: 0px;
-  top: 114px;
+  top: 10%;
   background-color: #333333;
 }
 
 .ultimate {
-  position: absolute;
+  /* position: absolute; */
   width: 237px;
   height: 36px;
-  left: 20px;
-  top: 69px;
+  margin-left: 10%;
+  margin-top: 10%;
 
   font-family: "Archivo";
   font-style: normal;
@@ -39,11 +39,11 @@ body {
 }
 
 .base {
-  position: absolute;
+  /* position: absolute; */
   width: 314px;
   height: 120px;
-  left: 20px;
-  top: 110px;
+  margin-left: 10%;
+  margin-top: 10%;
 
   font-family: "Old Standard TT";
   font-style: normal;
@@ -61,8 +61,8 @@ body {
   position: absolute;
   width: 216px;
   height: 60px;
-  left: 20px;
-  top: 300px;
+  left: 10%;
+  margin-top: 50px;
 
   /* Inside auto layout */
 
@@ -89,7 +89,7 @@ body {
   position: absolute;
   width: 216px;
   height: 60px;
-  left: 20px;
+  left: 10%;
   top: 380px;
 
   /* Inside auto layout */
@@ -123,7 +123,7 @@ body {
   flex-direction: column;
 
   /* left: 0px; */
-  top: 644px;
+  top: 72%;
   background-color: #222222;
 }
 
@@ -164,9 +164,9 @@ body {
   height: 30px;
 }
 
-.departure {
-  /* margin-top: 15px; */
-}
+/* .departure {
+    /* margin-top: 15px; */
+/* } */
 
 .check {
   position: absolute;
@@ -480,7 +480,7 @@ body {
   top: 3100px;
   width: 100%;
   /* display: flex;
-  flex-direction: column; */
+    flex-direction: column; */
 }
 
 .slice {
@@ -954,12 +954,12 @@ video {
 }
 
 /* .forFood {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  position: absolute;
-  top: 150px;
-} */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 150px;
+  } */
 
 @media only screen and (min-width: 1000px) {
   * {
@@ -975,483 +975,29 @@ video {
     flex-direction: column;
   }
   .rectangle2 {
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
     width: 100%;
     height: 700px;
+    left: 0px;
+    /* top: 10%; */
+    background-color: #333333;
   }
-
   .rectangle10 {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    top: 815px;
+    /* position: absolute; */
     width: 100%;
+    height: 531px;
+    /* margin-top: 100px; */
+    /* left: 0px; */
 
-    height: 152px;
-    right: 0;
-  }
-
-  .inputs {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: flex-start;
-    /* width: 100%; */
-    /* left: 0; */
-  }
-
-  .arrival {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 0px;
-    top: 0.1px;
+
+    /* left: 0px; */
+    /* top: 72%; */
+    background-color: #222222;
   }
-
-  .departure {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 350px;
-    top: -5px;
-  }
-
-  .check {
-    position: absolute;
-    /* width: 250px;
-    height: 60px;*/
-    left: 650px;
-    top: 10px;
-    /* background-color: #bead8e;  */
-
-    /* font-family: "Archivo";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 2.8px;
-    text-transform: uppercase;
-  
-    color: #ffffff; */
-  }
-
-  .rectangle18 {
-    position: absolute;
-    left: 550px;
-    background-color: rgb(187, 144, 87);
-    width: 500px;
-    height: 610px;
-    /* margin-left: 950px; */
-    /* margin-top: 50px; */
-  }
-
-  .kno {
-    display: none;
-  }
-
-  .ultimate {
-    width: 440px;
-    height: 15px;
-    margin-left: 275px;
-    font-family: "Archivo";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 2.8px;
-
-    color: #ffffff;
-  }
-
   .base {
-    width: 661px;
-    margin-left: 270px;
-    font-family: "Old Standard TT";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 120px;
-    line-height: 130px;
-    /* or 108% */
-
-    letter-spacing: -3.6px;
-
-    color: #ffffff;
-  }
-
-  .take {
     position: absolute;
-    width: 216px;
-    height: 60px;
-    left: -80px;
-    top: 517px;
-
-    background: #bead8e;
-    margin-left: 375px;
+    top: 60px;
   }
-
-  .learn {
-    position: absolute;
-    width: 216px;
-    height: 60px;
-    left: 275px;
-    top: 517px;
-    border: 2px solid rgba(255, 255, 255, 0.33);
-    background: #333333;
-    margin-left: 375px;
-  }
-
-  .inputs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .aboutUs {
-    margin-left: 50px;
-  }
-
-  .discover {
-    margin-left: 50px;
-  }
-
-  .lorem {
-    margin-left: 50px;
-  }
-  .book {
-    margin-left: 50px;
-  }
-
-  .team {
-    position: absolute;
-    top: 1070px;
-    left: 270px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    background: #ffffff;
-    box-shadow: 0px 0px 8px 5px rgba(34, 34, 34, 0.05);
-    width: 270px;
-    height: 300px;
-  }
-
-  .teamIcon {
-    /* position: relative; */
-    left: 100px;
-  }
-
-  .strong {
-    /* position: relative; */
-
-    left: 60px;
-  }
-
-  .ipsum {
-    /* position: relative; */
-
-    left: 35px;
-  }
-
-  .resort {
-    position: absolute;
-    top: 1070px;
-    left: 600px;
-  }
-
-  .luxury {
-    position: absolute;
-    top: 1400px;
-    left: 270px;
-  }
-
-  .luxuryRoom {
-    position: absolute;
-    top: 1400px;
-    left: 600px;
-
-    box-shadow: 0px 0px 8px 5px rgba(34, 34, 34, 0.2);
-  }
-
-  .pikedRooms {
-    position: absolute;
-    top: 1850px;
-    /* left: 600px; */
-  }
-
-  .rooms {
-    margin-left: 500px;
-  }
-
-  .hand {
-    width: 660px;
-    margin-left: 330px;
-  }
-
-  .roomsIcons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 2000px;
-    left: 560px;
-  }
-
-  .photos {
-    position: absolute;
-    width: 770px;
-    height: 500px;
-    left: 320px;
-    top: 2050px;
-  }
-
-  .slice {
-    width: 770px;
-    height: 500px;
-    /* top: 300px; */
-  }
-
-  .b-slice {
-    margin-left: -100px;
-    margin-top: 100px;
-  }
-
-  .b-slice-b {
-    margin-left: 480px;
-    margin-top: 100px;
-  }
-
-  .rectangle23 {
-    position: absolute;
-    width: 690px;
-    height: 172px;
-    left: 360px;
-    top: 2500px;
-
-    background-color: #ffffff;
-  }
-
-  .latin {
-    width: 437px;
-    height: 57.97px;
-  }
-
-  .night {
-    position: absolute;
-    top: 50px;
-    left: 350px;
-  }
-
-  .meet {
-    height: 700px;
-    position: absolute;
-    top: 2700px;
-  }
-
-  .video {
-    margin-left: 200px;
-  }
-
-  .meetWith {
-    margin-left: 200px;
-    width: 492px;
-    margin-bottom: 0px;
-  }
-
-  .loremIpsum {
-    margin-top: -50px;
-    margin-left: 200px;
-    width: 485px;
-  }
-
-  video {
-    width: 570px;
-    height: 460px;
-    position: absolute;
-    margin-left: 800px;
-    margin-top: -460px;
-  }
-
-  .book-now {
-    margin-top: -350px;
-    margin-left: 200px;
-  }
-
-  .facilities {
-    position: absolute;
-    width: 103px;
-    height: 15px;
-    left: 640px;
-    top: 3450px;
-  }
-
-  .core {
-    position: absolute;
-    width: 457px;
-    height: 80px;
-    left: 530px;
-    top: 3460px;
-  }
-
-  .rating {
-    position: absolute;
-    left: 50px;
-    width: 1200px;
-    height: 500px;
-    background-color: rgb(255, 255, 255);
-    top: 3650px;
-  }
-
-  .ceroOneOne {
-    background-color: rgb(255, 255, 255);
-    width: 370px;
-    height: 349px;
-    display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    position: absolute;
-    left: 50px;
-  }
-
-  .ceroOne {
-    position: absolute;
-    left: 0;
-    top: 00px;
-    left: 220px;
-  }
-
-  .hand {
-    position: absolute;
-    left: -300px;
-    width: 70px;
-    height: 70px;
-    top: 120px;
-  }
-
-  .high {
-    position: absolute;
-    left: 80px;
-    top: 120px;
-  }
-
-  .amet {
-    position: absolute;
-    left: 0;
-    top: 190px;
-    left: 90px;
-  }
-
-  .ceroTwo {
-    background-color: rgb(255, 255, 255);
-    width: 370px;
-    height: 349px;
-    display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    position: absolute;
-    left: 500px;
-  }
-
-  .ceroThree {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: 370px;
-    height: 349px;
-    display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    position: absolute;
-    left: 950px;
-  }
-  .ceroFour {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: 370px;
-    height: 349px;
-    display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    position: absolute;
-    left: 50px;
-    top: 400px;
-  }
-
-  .ceroFive {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: 370px;
-    height: 349px;
-    display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    position: absolute;
-    left: 500px;
-    top: 400px;
-  }
-
-  .ceroSix {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: 370px;
-    height: 349px;
-    display: flex;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    position: absolute;
-    left: 950px;
-    top: 400px;
-  }
-
-  .donut {
-    display: none;
-  }
-
-  /* .whole {
-    display: block;
-    position: absolute;
-    width: 229px;
-    height: 229px;
-    left: 0px;
-    top: 0px;
-    top: 4500px;
-    left: 50px;
-  } */
-
-  /* .menu {
-    position: absolute;
-    width: 52px;
-    height: 15px;
-    left: 394.15px;
-    top: 4700px;
-    /* color: red; */
-  /* }  */
-
-  /* .foodsMenu {
-    position: absolute;
-    width: 52px;
-    height: 15px;
-    left: 394.15px;
-    top: 4700px;
-    width: 452px;
-  } */
-
-  /* .dishes {
-    position: absolute;
-    width: 1500px;
-    height: 700px;
-
-    background-color: rgb(149, 197, 238);
-  } */
-
-  /* .wildFruit {
-    width: 120px;
-    height: 120px;
-    background-image: url("https://live.staticflickr.com/4309/35781406081_a045c14896_b.jpg");
-    background-size: cover;
-  } */
-}
+} ;
