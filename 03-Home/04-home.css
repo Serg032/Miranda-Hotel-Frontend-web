@@ -1,0 +1,1003 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  width: 100%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+}
+.rectangle2 {
+  position: absolute;
+  width: 100%;
+  height: 531px;
+  left: 0px;
+  top: 10%;
+  background-color: #333333;
+}
+
+.ultimate {
+  /* position: absolute; */
+  width: 237px;
+  height: 36px;
+  margin-left: 10%;
+  margin-top: 10%;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* or 138% */
+
+  letter-spacing: 2.8px;
+
+  color: #ffffff;
+}
+
+.base {
+  /* position: absolute; */
+  width: 314px;
+  height: 120px;
+  margin-left: 10%;
+  margin-top: 10%;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  letter-spacing: -1.2px;
+
+  color: #ffffff;
+}
+
+.take {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 10%;
+  margin-top: 50px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  background-color: #bead8e;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 1px solid #bead8e;
+}
+
+.learn {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 10%;
+  top: 380px;
+
+  /* Inside auto layout */
+  background-color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  text-decoration: none;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+.rectangle10 {
+  position: absolute;
+  width: 100%;
+  height: 531px;
+  left: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  /* left: 0px; */
+  top: 72%;
+  background-color: #222222;
+}
+
+.inputs {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  top: 30px;
+  gap: 30px;
+}
+
+.inputRectangle {
+  margin-top: 15px;
+}
+
+.titleRectangel10 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.calendar {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.inputRectangle {
+  background-color: #222222;
+  text-decoration: none;
+  border-bottom: 3px solid #bead8e;
+  height: 30px;
+}
+
+/* .departure {
+    /* margin-top: 15px; */
+/* } */
+
+.check {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 20px;
+  top: 250px;
+  background-color: #bead8e;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.separator {
+  width: 100%;
+  height: 60px;
+  display: block;
+}
+
+.rectangle18 {
+  position: absolute;
+  width: 100%;
+  height: 610px;
+  left: 0px;
+  top: 1060px;
+
+  background-color: #f9f9f9;
+}
+
+.aboutUs {
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  left: 20px;
+  top: 38px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.discover {
+  position: absolute;
+  width: 325px;
+  height: 120px;
+  left: 20px;
+  top: 88px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: -1.2px;
+
+  color: #111111;
+}
+
+.lorem {
+  position: absolute;
+  width: 335px;
+  height: 127px;
+  left: 30px;
+  top: 280px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #777777;
+}
+
+.book {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 30px;
+  top: 460px;
+  border: 0px;
+  background-color: #bdac8d;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.resortLuxury {
+  width: 100%;
+}
+
+.resort {
+  position: absolute;
+  top: 1630px;
+  left: 52px;
+  width: 270px;
+  height: 300px;
+  background-image: url(./../img/resort-02.jpg);
+  background-size: cover;
+}
+
+.team {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 1930px;
+  /* left: 52px; */
+  /* background-color: aqua; */
+  left: 0;
+}
+
+.teamIcon {
+  position: absolute;
+  left: 40%;
+  right: 0%;
+  top: 10%;
+  bottom: 0.08%;
+}
+
+.strong {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 28%;
+  top: 100.5px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.9px;
+
+  color: #111111;
+}
+
+.ipsum {
+  position: absolute;
+  width: 199.5px;
+  height: 77.17px;
+  left: 23%;
+  top: 184.5px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  text-align: center;
+
+  color: #111111;
+}
+
+.luxury {
+  position: absolute;
+  top: 2230px;
+  left: 52px;
+  width: 270px;
+  height: 300px;
+  background-image: url(./../img/luxury-hotel.jpg);
+  background-size: cover;
+}
+
+.luxuryRoom {
+  position: absolute;
+  width: 270px;
+  height: 300px;
+  left: 52px;
+  top: 2530px;
+
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.luxyCal {
+  margin-top: 40px;
+  width: 46.81px;
+  height: 50.06px;
+}
+
+.luxuryRooms {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  letter-spacing: -0.9px;
+
+  color: #ffffff;
+}
+
+.dolo {
+  width: 199.5px;
+  height: 77.17px;
+  left: 35.5px;
+  top: 184.5px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.pikedRooms {
+  position: absolute;
+  top: 2850px;
+}
+
+.rooms {
+  position: absolute;
+  width: 66px;
+  height: 15px;
+  left: 147px;
+  /* top: 2858px; */
+  margin-top: -12px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.hand {
+  position: absolute;
+  width: 335px;
+  height: 120px;
+  left: 20px;
+  margin-top: -55px;
+  /* top: 2397px; */
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: -1.2px;
+
+  color: #222222;
+}
+
+.roomsIcons {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  width: 256px;
+  height: 40px;
+  left: 100px;
+  top: 3080px;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 5px rgba(138, 138, 138, 0.05);
+}
+
+.roomIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.photos {
+  position: absolute;
+  top: 3100px;
+  width: 100%;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.slice {
+  background-image: url(./../img/luxury-hotel-slice.jpg);
+  background-size: cover;
+  /* width: 370px; */
+  height: 244px;
+  /* margin-left: 10px; */
+}
+
+.b-slice {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+
+.b-slice-b {
+  width: 32px;
+  height: 32px;
+  background-color: #bdac8d;
+  border: none;
+  position: absolute;
+  top: 120px;
+  left: 330px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+}
+*/ .rectangle23 {
+  position: absolute;
+  width: 335px;
+  height: 215px;
+}
+
+.test {
+  width: 100%;
+}
+
+.rectangle23 {
+  position: absolute;
+  width: 335px;
+  height: 245px;
+  left: 28px;
+  top: 3330px;
+  background: #ffffff;
+}
+
+.minimal {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: -1.2px;
+
+  color: #222222;
+
+  margin-left: 35px;
+}
+
+.latin {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  color: #777777;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.night {
+  margin-top: 20px;
+  margin-left: 125px;
+}
+
+.meet {
+  position: absolute;
+  width: 100%;
+  height: 920px;
+  left: 0px;
+  top: 3574px;
+
+  background: #222222;
+}
+
+.video {
+  position: absolute;
+  width: 150px;
+  height: 15px;
+  left: 15px;
+  top: 64px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #bdac8d;
+}
+
+.meetWith {
+  position: absolute;
+  width: 335px;
+  height: 180px;
+  left: 20px;
+  top: 80px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  letter-spacing: -1.2px;
+
+  color: #ffffff;
+}
+
+.loremIpsum {
+  position: absolute;
+  width: 335px;
+  height: 123px;
+  left: 20px;
+  top: 347px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #c2c2c2;
+}
+
+video {
+  position: absolute;
+  top: 500px;
+  width: 335px;
+  height: 270px;
+  margin-left: 30px;
+}
+
+.book-now {
+  position: absolute;
+  width: 216px;
+  height: 60px;
+  left: 30px;
+  top: 800px;
+  border: none;
+  background: #bdac8d;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.facilities {
+  position: absolute;
+  top: 4530px;
+  left: 140px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.core {
+  position: absolute;
+  top: 4530px;
+  left: 35px;
+  width: 326px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* identical to box height, or 107% */
+
+  letter-spacing: -1.2px;
+
+  color: #222222;
+}
+
+.rating {
+  width: 100%;
+  height: 370px;
+  position: absolute;
+  top: 4680px;
+  /* left: 250px; */
+}
+
+.ceroTwo {
+  display: none;
+}
+
+.ceroThree {
+  display: none;
+}
+
+.ceroFour {
+  display: none;
+}
+
+.ceroFive {
+  display: none;
+}
+
+.ceroSix {
+  display: none;
+}
+.ceroOne {
+  position: absolute;
+  left: 230px;
+}
+
+.hand {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 20px;
+  top: 80px;
+}
+
+.high {
+  position: absolute;
+  width: 221px;
+  height: 30px;
+  left: 35.71px;
+  top: 188.94px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.9px;
+
+  color: #222222;
+}
+
+.amet {
+  position: absolute;
+  width: 250px;
+  height: 79.8px;
+  left: 38px;
+  top: 247px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #777777;
+}
+
+.donut {
+  position: absolute;
+  width: 114.5px;
+  height: 114.5px;
+  left: 250px;
+  top: 5150px;
+}
+
+.menu {
+  position: absolute;
+  width: 52px;
+  height: 15px;
+  left: 25px;
+  top: 5280px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.foodsMenu {
+  position: absolute;
+  width: 335px;
+  height: 120px;
+  left: 20px;
+  top: 5280px;
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  letter-spacing: -1.2px;
+
+  color: #222222;
+}
+
+.dishImg {
+  /* position: absolute; */
+  width: 120px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+}
+
+.eggs {
+  display: flex;
+  position: absolute;
+  top: 5500px;
+  left: 20px;
+  gap: 30px;
+}
+
+.dishDescriptionT {
+  position: absolute;
+  top: -25px;
+  width: 150px;
+  /* margin-bottom: 20px; */
+
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.72px;
+
+  color: #222222;
+}
+
+.dishDescription {
+  position: absolute;
+  top: 20px;
+  width: 185px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #222222;
+}
+
+.tea {
+  display: flex;
+  position: absolute;
+  top: 5650px;
+  left: 20px;
+  gap: 10px;
+}
+
+.teacof {
+  margin-left: 150px;
+}
+
+.chia {
+  display: flex;
+  position: absolute;
+  top: 5800px;
+  left: 20px;
+  gap: 10px;
+}
+
+.forFood {
+  position: absolute;
+  top: 5950px;
+  left: 270px;
+}
+
+.forF {
+  width: 36px;
+  height: 36px;
+  border: none;
+  margin-right: 17pxpx;
+}
+
+.forFoo {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: #bead8e;
+}
+
+.toDaBottom {
+  position: absolute;
+  top: 6050px;
+  width: 335px;
+  height: 335px;
+}
+
+.black {
+  position: absolute;
+  width: 100%;
+  height: 1020px;
+  left: 0px;
+  top: 6500px;
+
+  background-color: #222222;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rockt84 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.rocket {
+  width: 78px;
+  height: 80px;
+}
+
+.whole {
+  display: none;
+}
+
+.fruit {
+  display: none;
+}
+
+/* .forFood {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 150px;
+  } */
+
+@media only screen and (min-width: 1000px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    min-width: 320px;
+    width: 100%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .rectangle2 {
+    /* position: absolute; */
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    /* top: 10%; */
+    background-color: #333333;
+  }
+  .rectangle10 {
+    /* position: absolute; */
+    width: 100%;
+    height: 531px;
+    /* margin-top: 100px; */
+    /* left: 0px; */
+
+    display: flex;
+    flex-direction: column;
+
+    /* left: 0px; */
+    /* top: 72%; */
+    background-color: #222222;
+  }
+  .base {
+    position: absolute;
+    top: 60px;
+  }
+} ;
